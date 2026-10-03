@@ -34,7 +34,7 @@ function Home({ navigation }) {
   return (
     <ScrollView style={styles.container}>
       <Header navigation={navigation} />
-      <Image source={require(".//olamilekan-hub-logo.png")} style={styles.logoImage} resizeMode="contain" />
+      <Image source={require("./olamilekan-hub-logo.png")} style={styles.logoImage} resizeMode="contain" />
       <View style={styles.hero}>
         <Text style={styles.badge}>DIGITAL CREATIVE SERVICES</Text>
         <Text style={styles.heroTitle}>Build. Edit. Grow.</Text>
