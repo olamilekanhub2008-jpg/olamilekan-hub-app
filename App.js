@@ -121,7 +121,7 @@ function Order({ route, navigation }) {
 
   return (
     <ScrollView style={styles.container}>
-      <Image source={require("./assets/olamilekan-hub-logo.png")} style={styles.formLogo} resizeMode="contain" />
+      <Image source={require("./olamilekan-hub-logo.png")} style={styles.formLogo} resizeMode="contain" />
       <Text style={styles.pageTitle}>Order a Service</Text>
       <Text style={styles.pageIntro}>Fill the form. You can attach a photo or project file, then send your request to WhatsApp.</Text>
 
