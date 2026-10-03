@@ -34,7 +34,7 @@ function Home({ navigation }) {
   return (
     <ScrollView style={styles.container}>
       <Header navigation={navigation} />
-      <Image source={require("./assets/olamilekan-hub-logo.png")} style={styles.logoImage} resizeMode="contain" />
+      <Image source={require(".//olamilekan-hub-logo.png")} style={styles.logoImage} resizeMode="contain" />
       <View style={styles.hero}>
         <Text style={styles.badge}>DIGITAL CREATIVE SERVICES</Text>
         <Text style={styles.heroTitle}>Build. Edit. Grow.</Text>
@@ -164,7 +164,7 @@ function Portfolio() {
 
   return (
     <ScrollView style={styles.container}>
-      <Image source={require("./assets/olamilekan-hub-logo.png")} style={styles.formLogo} resizeMode="contain" />
+      <Image source={require("./olamilekan-hub-logo.png")} style={styles.formLogo} resizeMode="contain" />
       <Text style={styles.pageTitle}>Portfolio</Text>
       <Text style={styles.pageIntro}>
         Explore Olamilekan Hub projects and services on the portfolio website.
@@ -257,7 +257,7 @@ function Contact() {
 function About() {
   return (
     <ScrollView style={styles.container}>
-      <Image source={require("./assets/olamilekan-hub-logo.png")} style={styles.aboutLogo} resizeMode="contain" />
+      <Image source={require("./olamilekan-hub-logo.png")} style={styles.aboutLogo} resizeMode="contain" />
       <Text style={styles.pageTitle}>About Olamilekan Hub</Text>
       <Text style={styles.pageIntro}>
         Olamilekan Hub provides digital creative services including website creation,
